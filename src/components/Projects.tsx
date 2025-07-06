@@ -3,54 +3,53 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 
 const Projects = () => {
-  // Placeholder projects - can be easily replaced with real GitHub data
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      title: "AI-Powered Meeting Minutes Generator",
+      description: "AI-powered meeting minutes generator with automated text extraction, vector search, and intelligent summarization. Built with AWS serverless architecture, React frontend, and RAG workflows for active learning.",
+      technologies: ["React", "AWS", "HCL", "RAG", "Vector Search"],
+      githubUrl: "https://github.com/msaajid/AI-Powered-Meeting-Minutes-Generator",
+      liveUrl: null,
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "TypeScript", "Socket.io", "PostgreSQL"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      title: "Cloud Chat Real-Time Messaging Platform",
+      description: "A cloud-native, real-time messaging platform that enables secure, scalable, and low-latency chat between users. Built to demonstrate modern cloud architectures, serverless technologies, and event-driven design.",
+      technologies: ["JavaScript", "Cloud Native", "WebSocket", "Serverless"],
+      githubUrl: "https://github.com/msaajid/Cloud-Chat-Real-Time-Messaging-Platform",
+      liveUrl: null,
       featured: true
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for data visualization with charts, graphs, and real-time data updates using modern web technologies.",
-      technologies: ["React", "D3.js", "Python", "Flask", "MySQL"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      featured: false
-    },
-    {
-      title: "Social Media API",
-      description: "RESTful API for social media application with user management, post creation, and social interactions functionality.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Cloudinary"],
-      githubUrl: "https://github.com",
+      title: "E-Commerce Backend",
+      description: "E-Commerce Pro is a cutting-edge, full-stack e-commerce solution designed to deliver exceptional shopping experiences. Built with modern technologies and enterprise-grade architecture.",
+      technologies: ["JavaScript", "Node.js", "Express", "MongoDB", "REST API"],
+      githubUrl: "https://github.com/msaajid/E-COMMERCE-Backend",
       liveUrl: null,
       featured: false
     },
     {
-      title: "Mobile Expense Tracker",
-      description: "React Native application for tracking personal expenses with budget management and spending analytics.",
-      technologies: ["React Native", "Firebase", "Chart.js", "AsyncStorage"],
-      githubUrl: "https://github.com",
+      title: "Cloud Native Notes App",
+      description: "A modern, serverless, and infinitely scalable note-taking application that harnesses the full power of AWS cloud services. Built with enterprise-grade architecture demonstrating cutting-edge cloud technologies.",
+      technologies: ["HCL", "AWS", "Serverless", "Cloud Native"],
+      githubUrl: "https://github.com/msaajid/Cloud-Native-Notes-App",
       liveUrl: null,
       featured: false
     },
     {
-      title: "Weather Forecast App",
-      description: "Real-time weather application with location-based forecasts, weather maps, and detailed meteorological data.",
-      technologies: ["React", "OpenWeather API", "Mapbox", "PWA"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      title: "Movie Ticket Booking System",
+      description: "A modern, feature-rich movie ticket booking application that provides users with a seamless experience for discovering movies, selecting seats, and booking tickets online.",
+      technologies: ["TypeScript", "React", "Node.js", "Database"],
+      githubUrl: "https://github.com/msaajid/Movie-Ticket-Booking-System",
+      liveUrl: null,
+      featured: false
+    },
+    {
+      title: "To-Do Application",
+      description: "A clean, intuitive to-do application that helps you organize your tasks and boost productivity. Built with modern web technologies for a smooth user experience.",
+      technologies: ["TypeScript", "React", "Local Storage", "PWA"],
+      githubUrl: "https://github.com/msaajid/To-Do",
+      liveUrl: null,
       featured: false
     }
   ];
