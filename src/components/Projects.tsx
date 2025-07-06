@@ -149,7 +149,7 @@ const Projects = () => {
                   {project.description}
                 </p>
                 
-                <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-1 mb-4">
                   {project.technologies.slice(0, 3).map((tech, techIndex) => (
                     <span 
                       key={techIndex}
@@ -164,6 +164,16 @@ const Projects = () => {
                     </span>
                   )}
                 </div>
+                
+                <a 
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm" className="w-full">
+                    View Code
+                  </Button>
+                </a>
               </Card>
             ))}
           </div>
