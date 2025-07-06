@@ -8,7 +8,7 @@ const Projects = () => {
       title: "AI-Powered Meeting Minutes Generator",
       description: "AI-powered meeting minutes generator with automated text extraction, vector search, and intelligent summarization. Built with AWS serverless architecture, React frontend, and RAG workflows for active learning.",
       technologies: ["React", "AWS", "HCL", "RAG", "Vector Search"],
-      githubUrl: "https://github.com/msaajid/AI-Powered-Meeting-Minutes-Generator",
+      githubUrl: "https://github.com/Sajidrahman-tech/AI-Powered-Meeting-Minutes-Generator",
       liveUrl: null,
       featured: true
     },
