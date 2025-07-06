@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Cloud Chat Real-Time Messaging Platform",
       description: "A cloud-native, real-time messaging platform that enables secure, scalable, and low-latency chat between users. Built to demonstrate modern cloud architectures, serverless technologies, and event-driven design.",
       technologies: ["JavaScript", "Cloud Native", "WebSocket", "Serverless"],
-      githubUrl: "https://github.com/msaajid/Cloud-Chat-Real-Time-Messaging-Platform",
+      githubUrl: "https://github.com/Sajidrahman-tech/Cloud-Chat-Real-Time-Messaging-Platform",
       liveUrl: null,
       featured: true
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Cloud Native Notes App",
       description: "A modern, serverless, and infinitely scalable note-taking application that harnesses the full power of AWS cloud services. Built with enterprise-grade architecture demonstrating cutting-edge cloud technologies.",
       technologies: ["HCL", "AWS", "Serverless", "Cloud Native"],
-      githubUrl: "https://github.com/msaajid/Cloud-Native-Notes-App",
+      githubUrl: "https://github.com/Sajidrahman-tech/Cloud-Native-Notes-App-",
       liveUrl: null,
       featured: false
     },
