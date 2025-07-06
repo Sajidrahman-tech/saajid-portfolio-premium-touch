@@ -24,7 +24,7 @@ const Projects = () => {
       title: "E-Commerce Backend",
       description: "E-Commerce Pro is a cutting-edge, full-stack e-commerce solution designed to deliver exceptional shopping experiences. Built with modern technologies and enterprise-grade architecture.",
       technologies: ["JavaScript", "Node.js", "Express", "MongoDB", "REST API"],
-      githubUrl: "https://github.com/msaajid/E-COMMERCE-Backend",
+      githubUrl: "https://github.com/Sajidrahman-tech/E-COMMERCE-Backend",
       liveUrl: null,
       featured: false
     },
@@ -40,7 +40,7 @@ const Projects = () => {
       title: "Movie Ticket Booking System",
       description: "A modern, feature-rich movie ticket booking application that provides users with a seamless experience for discovering movies, selecting seats, and booking tickets online.",
       technologies: ["TypeScript", "React", "Node.js", "Database"],
-      githubUrl: "https://github.com/msaajid/Movie-Ticket-Booking-System",
+      githubUrl: "https://github.com/Sajidrahman-tech/Movie-Ticket-Booking-System",
       liveUrl: null,
       featured: false
     },
@@ -48,7 +48,7 @@ const Projects = () => {
       title: "To-Do Application",
       description: "A clean, intuitive to-do application that helps you organize your tasks and boost productivity. Built with modern web technologies for a smooth user experience.",
       technologies: ["TypeScript", "React", "Local Storage", "PWA"],
-      githubUrl: "https://github.com/msaajid/To-Do",
+      githubUrl: "https://github.com/Sajidrahman-tech/To-Do",
       liveUrl: null,
       featured: false
     }
@@ -111,9 +111,15 @@ const Projects = () => {
                     View Live
                   </Button>
                 )}
-                <Button variant="outline" size="sm">
-                  View Code
-                </Button>
+                <a 
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    View Code
+                  </Button>
+                </a>
               </div>
             </Card>
           ))}
