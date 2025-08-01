@@ -57,12 +57,16 @@ const Contact = () => {
         </Card>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <Button variant="premium" size="lg">
-            Send Me an Email
-          </Button>
-          <Button variant="glass" size="lg">
-            Schedule a Call
-          </Button>
+          <a href="mailto:sajidrahman@dal.ca">
+            <Button variant="premium" size="lg">
+              Send Me an Email
+            </Button>
+          </a>
+          <a href="tel:+19028171103">
+            <Button variant="glass" size="lg">
+              Schedule a Call
+            </Button>
+          </a>
         </div>
         
         <div className="flex justify-center space-x-6">
@@ -75,7 +79,7 @@ const Contact = () => {
             <Github className="w-7 h-7 group-hover:text-accent transition-colors duration-300" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/mohamed-sajid-9a681021a/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-4 bg-card hover:bg-gradient-card rounded-full transition-all duration-300 hover:shadow-gold hover:scale-110 group"
