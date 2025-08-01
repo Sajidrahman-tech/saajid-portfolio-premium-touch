@@ -17,8 +17,9 @@ const About = () => {
   ];
 
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", 
-    "MongoDB", "PostgreSQL", "AWS", "Docker", "Git"
+    "Java", "JavaScript", "TypeScript", "React", "Angular", "Node.js", "Express.js", "Python", 
+    "Spring Boot", "Spring MVC", "Hibernate", "MongoDB", "PostgreSQL", "MySQL", 
+    "AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "JUnit", "Git"
   ];
 
   return (
