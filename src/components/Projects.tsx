@@ -180,9 +180,15 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="premium">
-            View All Projects on GitHub
-          </Button>
+          <a 
+            href="https://github.com/Sajidrahman-tech"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="premium">
+              View All Projects on GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </section>
